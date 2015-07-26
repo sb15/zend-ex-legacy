@@ -1,0 +1,1 @@
+https://api.vkontakte.ru/method/getProfiles?uids=1,5,6018035&fields=online

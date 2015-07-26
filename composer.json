@@ -1,0 +1,16 @@
+{
+    "name": "sb15/zend-ex-legacy",
+    "description": "Zend Ex Legasy",
+    "type": "library",       
+    "require": {
+        "php": ">=5.2.11"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zend_": "src/"
+        }
+    },
+    "include-path": [
+        "src/"
+    ]    
+}
