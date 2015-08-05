@@ -159,7 +159,7 @@ class Zend_Image_Gd
         if (!$this->im) {
             return;
         }
-        imageantialias($this->im, true);
+        //imageantialias($this->im, true);
         $this->wid = imagesx($this->im);
         $this->hei = imagesy($this->im); 
     }
